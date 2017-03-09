@@ -43,7 +43,7 @@ $ ionic run android
 Need more detail? Please chekout [Ionic Framework](http://ionicframework.com) and [Ionic Framework generator](https://github.com/diegonetto/generator-ionic).
 
 ### Question
-if you have some problem with window system, please follow the blow step may help you fixed it.
+if you have some problem with window system, please follow the step below that may help you fix it.
 ```js
 grunt-contrib-compass/node_modules/tmp/lib/tmp.js:261
         throw err;
@@ -63,7 +63,7 @@ see issue: [Run grunt serve error](https://github.com/lanceli/cnodejs-ionic/issu
 > 1. npm install cordova ionic
 > 2. npm install -g cordova ionic
 
-After install all the modules, you may face the child_process error. This is a windows system bug. you can fixed it like this:
+After you install all the modules, you may face the child_process error. This is a windows system bug. You can fixed it like this:
 ```js
 grunt-contrib-compass/node_modules/tmp/lib/tmp.js:261
         throw err;
@@ -83,12 +83,12 @@ to
 var spawn = require('win-spawn');
 ```
 
-more information about this defect,please see:
+For more information about this defect, please see:
  
 * [child_process error solution1](https://cnodejs.org/topic/54b4db04edf686411e1b9d7f#54b51ac3edf686411e1b9dcf)
 * [child_process error solution2](https://github.com/diegonetto/generator-ionic/issues/15#issuecomment-38075095)
 
-have try, it should work now.
+Give it a try, it should work now.
 
 ### Cross-Origin
 When you run it locally in browser, CORS is a problem.
